@@ -1,0 +1,28 @@
+<svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .logo-a { fill: white; }
+      .logo-scale { fill: none; stroke: white; stroke-width: 3; }
+      .logo-pan { fill: white; }
+      .logo-stroke { stroke: white; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  
+  <!-- Letter A with integrated scale -->
+  <g class="logo-a">
+    <!-- Main A structure - thicker strokes for better visibility -->
+    <path d="M120 40 L100 160 L80 160 L60 40 L80 40 L90 90 L110 90 L120 40 Z" fill="white" stroke="white" stroke-width="2"/>
+    
+    <!-- Scale hanging from the crossbar -->
+    <g class="logo-scale">
+      <!-- Scale top triangle -->
+      <path d="M95 90 L85 100 L105 100 Z" stroke="white" stroke-width="3" fill="none"/>
+      
+      <!-- Scale pan -->
+      <ellipse cx="95" cy="110" rx="8" ry="3" class="logo-pan"/>
+      
+      <!-- Connecting line from A to scale -->
+      <path d="M95 90 Q95 95 95 100" stroke="white" stroke-width="2" fill="none"/>
+    </g>
+  </g>
+</svg>
